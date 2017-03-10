@@ -11,6 +11,9 @@ void affiche(char* a){
 	printf("toujours plus de modifs");
 	printf("%s",a);
 }
+int elaguage(int a, int b){
+	return a-b;
+}
 int main(int argc, char** argv){
 	printf("a force, %s,c'est chiant!\n",argv[0]);
 	affiche argv[0];
