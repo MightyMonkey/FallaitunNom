@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-
+int modifieur(int a, int b){
+	return b-a;
+}
 int calcul(int a, int b){
 	printf("on s'en ballec, faut faire des modifs");
 	return a+b;
