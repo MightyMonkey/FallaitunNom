@@ -6,6 +6,7 @@ int calcul(int a, int b){
 	return a+b;
 }
 void affiche(char* a){
+	printf("toujours plus de modifs");
 	printf("%s",a);
 }
 int main(int argc, char** argv){
