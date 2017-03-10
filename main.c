@@ -10,5 +10,6 @@ void affiche(char* a){
 int main(int argc, char** argv){
 	affiche argv[0];
 	calcul(argv[1],argv[2]);
+	printf("toujours plus de modifs!!\n");
 	return 1;
 }
